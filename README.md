@@ -7,10 +7,17 @@ Case is an abstract grammatical feature that indicates the argument relationship
 One possible answer is that, they might learn it from the context of different pronouns. For example, "Let X go", X is likely to be an accusative pronoun ('me'), whereas in "Can X go", X is likely to be a nominative pronoun ('I'). This project tested if the "a X b" frame can effectively distinguish three cases of English pronoun. 
 
 ## Overview
-data: corpora from CHILDES
-input: "a X b", (e.g. "let _ go")
-output: the case of X (e.g. accusative)
-model: simple feedforward neural network
+### data: 
+6 parents' corpora data from CHILDES
+
+### input: 
+"a X b", (e.g. "let _ go")
+
+### output: 
+the case of X (e.g. accusative)
+
+### model: 
+simple feedforward neural network
 
 ## Publication
 Ma, X.,Chodorow, M., Valian, V. (2020). Learning Pronoun Case from Distributional Cues: Flexible Frames for Case Acquisition. In Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics, (pp. 66-74) <a href = "https://xiaomeng-ma.github.io/13_Paper.pdf" target = "_blank" style = "color: red"> Download</a>
